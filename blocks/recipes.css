@@ -15,11 +15,14 @@ recipes {
   display: flex;
   gap: 28px;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 
 .recipes__video {
@@ -42,4 +45,5 @@ recipes {
 
 h2.recipes__title {
   color: white;
+  margin: 0;
 }
