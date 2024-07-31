@@ -1,12 +1,11 @@
 .footer {
-  background: linear-gradient(180deg, #0a2850 0%, #071831 100%);`
+  background: linear-gradient(180deg, #0a2850 0%, #071831 100%);
   padding: 60px;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 0 80px 0;
 }
 
@@ -17,8 +16,7 @@
 
 .footer__social-heading {
   color: white;
-  display: flex;
-  flex-direction: column;
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -30,11 +28,18 @@
 }
 
 .footer__list-item {
-  display: flex;
+  margin-bottom: 16px;
+}
+
+.footer__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__social-link {
+  display: flex;
   color: white;
+  gap: 10px;
+  align-items: center;
 }
 
 .footer__social-link:hover {
