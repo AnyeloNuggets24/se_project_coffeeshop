@@ -23,6 +23,11 @@ recipes {
   display: flex;
   justify-content: space-between;
   margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .recipes__video {
@@ -31,6 +36,12 @@ recipes {
 
 .recipes__subtitle {
   color: white;
+  max-width: 438px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .recipes__video {
@@ -43,7 +54,12 @@ recipes {
   height: 273px;
 }
 
-h2.recipes__title {
+.recipes__title {
   color: white;
   margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
