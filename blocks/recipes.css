@@ -8,12 +8,11 @@ recipes {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 72px 215px;
 }
 
 .recipes__videos {
   display: flex;
-  gap: 28px;
+  gap: 40px;
   justify-content: center;
   padding: 0;
   margin: 0;
@@ -33,6 +32,7 @@ recipes {
 
 .recipes__video {
   list-style: none;
+  color: white;
 }
 
 .recipes__subtitle {
@@ -43,11 +43,7 @@ recipes {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
-}
-
-.recipes__video {
-  color: white;
+  margin: 24px 0 80px;
 }
 
 .recipes__iframe {
